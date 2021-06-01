@@ -1,1 +1,8 @@
 theme: jekyll-theme-leap-day
+title: [Python dasturlash tili]
+description: [Bu yerda biz Python dasturlash tili doir bilimlarni o'rganamiz]
+show_downloads: false
+show_github_repository: false
+is_theme_by: false
+github:
+  martianvenusian_url: https://martianvenusian.github.io
