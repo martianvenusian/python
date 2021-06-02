@@ -17,11 +17,11 @@
   <body>
 
       <header>
-        <!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
-        <h1>{{ default: site.title | default: site.github.repository_name }}</h1>
-        {% if site.show_description %}
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <!-- <h1>{{ default: site.title | default: site.github.repository_name }}</h1> -->
+        <!-- {% if site.show_description %}
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-        {% endif %}
+        {% endif %} -->
       </header>
 
       <div id="banner">
@@ -29,14 +29,14 @@
 
         <a href="{{ site.github.python }}" class="button fork"><strong>PYTHON</strong></a>
         
-        {% if site.show_languages %}
+        <!-- {% if site.show_languages %}
           <div class="downloads">
             <span>Languages:</span>
             <ul>
               <li><a href="{{ site.github.python_uz }}" class="button">UZ</a></li>              
             </ul>
           </div>
-        {% endif %}  
+        {% endif %}   -->
 
         {% if site.show_downloads %}
           <div class="downloads">
