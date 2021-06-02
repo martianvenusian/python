@@ -27,8 +27,17 @@
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="{{ https://martianvenusian.github.io/python }}" class="button fork"><strong>PYTHON</strong></a>
+        <a href="{{ site.github.python }}" class="button fork"><strong>PYTHON</strong></a>
         
+        {% if site.show_languages %}
+          <div class="downloads">
+            <span>Languages:</span>
+            <ul>
+              <li><a href="{{ site.github.python_uz }}" class="button">ZIP</a></li>              
+            </ul>
+          </div>
+        {% endif %}  
+
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>

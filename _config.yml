@@ -1,10 +1,14 @@
 theme: jekyll-theme-leap-day
-title: [Python dasturlash tili]
-description: [O'zbek tilida]
+title: [Python]
+description: [learn with us]
+show_description: true
+show_languages: true
 show_downloads: false
 show_github_repository: false
-show_description: true
+
 is_theme_by: false
 github:
   martianvenusian_url: https://martianvenusian.github.io
-  repository_name: [Python dasturlash tili]
+  python: https://martianvenusian.github.io/python
+  python_uz: https://martianvenusian.github.io/python_uz
+  repository_name: [Python programming language]
