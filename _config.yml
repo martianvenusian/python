@@ -6,3 +6,4 @@ show_github_repository: false
 is_theme_by: false
 github:
   martianvenusian_url: https://martianvenusian.github.io
+  repository_name: [Python]
