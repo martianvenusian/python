@@ -1,6 +1,3 @@
-# Python dasturlash tili
-
-
 
 
 <!-- ## Kitoblar tarjimasi
